@@ -87,18 +87,18 @@ All write operations require `actingUser` in the request body.
 
 Jawaban atas pertanyaan:
 
-Bagaimana kamu memastikan audit log tidak ter-modifikasi?
+- **Bagaimana kamu memastikan audit log tidak ter-modifikasi?**
 
 hanya ada operasi insert ke sqlite tidak ada update dan delete
 
-Bagian mana dari solusi ini yang paling berisiko jika digunakan oleh banyak user?
+- **Bagian mana dari solusi ini yang paling berisiko jika digunakan oleh banyak user?**
 
-pastinya baguan auth karena jika user bisa mengakses auth dia bisa mengubah apa saja
+pastinya bagian auth karena jika user bisa mengakses auth dia bisa mengubah apa saja
 
-Jika task ini berkembang menjadi sistem besar, bagian mana yang akan kamu refactor terlebih dahulu dan kenapa?
+- **Jika task ini berkembang menjadi sistem besar, bagian mana yang akan kamu refactor terlebih dahulu dan kenapa?**
 
-untuk saat ini saya menggunakan sqlite jadi database akan saya ubah ke postgres misal atau database yang bisa mengelola banyak user dengan baik dan yang pasti authentikasi karena itu bagian yang critical karena jika salah akab berakibat fatal
+untuk saat ini saya menggunakan sqlite jadi database akan saya ubah ke postgres misal atau database yang bisa mengelola banyak user dengan baik dan yang pasti authentikasi karena itu bagian yang critical karena jika salah akan berakibat fatal
 
-Jika kamu menggunakan AI, jelaskan bagian mana yang dibantu AI dan bagaimana kamu memvalidasinya.
+- **Jika kamu menggunakan AI, jelaskan bagian mana yang dibantu AI dan bagaimana kamu memvalidasinya.**
 
 hampir semuanya saya menggunakan ai saya mengetes satu persatu secara manual dan dengan bantuan cursor dan embedded cursor browser juga supaya tahu kalau semua fungsi berjalan dengan benar
