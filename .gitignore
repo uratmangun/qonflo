@@ -6,3 +6,8 @@ coverage/
 tsconfig.tsbuildinfo
 .env*
 !.env.example
+dist/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.DS_Store

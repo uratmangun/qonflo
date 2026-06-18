@@ -1,0 +1,2649 @@
+{
+  "version": "2.13",
+  "children": [
+    {
+      "type": "frame",
+      "id": "hIvb6",
+      "x": 0,
+      "y": 0,
+      "name": "Component/Sidebar",
+      "reusable": true,
+      "width": 220,
+      "height": 900,
+      "fill": "$surface-inverse",
+      "layout": "vertical",
+      "gap": 8,
+      "padding": [
+        24,
+        20
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Omsxd",
+          "name": "Logo Row",
+          "width": "fill_container",
+          "gap": 10,
+          "padding": [
+            0,
+            0,
+            24,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "RvzkC",
+              "name": "Logo Icon",
+              "width": 24,
+              "height": 24,
+              "icon": "clipboard-list",
+              "library": "lucide",
+              "fill": "$text-inverse"
+            },
+            {
+              "type": "text",
+              "id": "Hd4cC",
+              "name": "App Name",
+              "fill": "$text-inverse",
+              "content": "TaskFlow",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ouggf",
+          "name": "Nav Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "qC0AB",
+              "name": "Nav Label",
+              "fill": "#8FB89A",
+              "content": "NAVIGATION",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "NEGgq",
+              "name": "Nav Item Active",
+              "width": "fill_container",
+              "fill": "#2D5E3A",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                10,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "dCL9f",
+                  "name": "Nav Icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "list-todo",
+                  "library": "lucide",
+                  "fill": "$text-inverse"
+                },
+                {
+                  "type": "text",
+                  "id": "EgsLS",
+                  "name": "Nav Text",
+                  "fill": "$text-inverse",
+                  "content": "Tasks",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "M7VWG",
+              "name": "Nav Item Inactive",
+              "width": "fill_container",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                10,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "z6wYK",
+                  "name": "Nav Icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "scroll-text",
+                  "library": "lucide",
+                  "fill": "#8FB89A"
+                },
+                {
+                  "type": "text",
+                  "id": "g0faxI",
+                  "name": "Nav Text",
+                  "fill": "#8FB89A",
+                  "content": "Audit Log",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EVrKd",
+          "name": "User Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "mGv3Z",
+              "name": "User Label",
+              "fill": "#8FB89A",
+              "content": "ACTING AS",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "KFYmZ",
+              "name": "User Dropdown",
+              "width": "fill_container",
+              "fill": "#2D5E3A",
+              "cornerRadius": 8,
+              "stroke": "$border-primary",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                10,
+                12
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uTO7E",
+                  "name": "User Left",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "hiSDN",
+                      "name": "User Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "user",
+                      "library": "lucide",
+                      "fill": "$text-inverse"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m6VZm",
+                      "name": "User Name",
+                      "fill": "$text-inverse",
+                      "content": "john.doe",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "lXB2N",
+                  "name": "Chevron",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "#8FB89A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tZmyD",
+      "x": 0,
+      "y": -240,
+      "name": "Component/StatusBadge",
+      "reusable": true,
+      "fill": "#E8F0EA",
+      "cornerRadius": 12,
+      "padding": [
+        4,
+        10
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "VSoRj",
+          "name": "Status Text",
+          "fill": "$status-todo",
+          "content": "to_do",
+          "fontFamily": "Geist Mono",
+          "fontSize": 11,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hh1NN",
+      "x": 0,
+      "y": -480,
+      "name": "Component/Button Primary",
+      "reusable": true,
+      "fill": "$accent-primary",
+      "cornerRadius": 8,
+      "gap": 6,
+      "padding": [
+        10,
+        16
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "g0ufe",
+          "name": "Button Label",
+          "fill": "$text-inverse",
+          "content": "Button",
+          "fontFamily": "Geist",
+          "fontSize": 13,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XHCaw",
+      "x": 0,
+      "y": -720,
+      "name": "Component/Button Secondary",
+      "reusable": true,
+      "fill": "$surface-secondary",
+      "cornerRadius": 8,
+      "stroke": "$border-primary",
+      "strokeWidth": 1,
+      "gap": 6,
+      "padding": [
+        8,
+        12
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "K4eey",
+          "name": "Button Label",
+          "fill": "$text-primary",
+          "content": "Button",
+          "fontFamily": "Geist",
+          "fontSize": 13,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "NvZf5",
+      "x": 0,
+      "y": -960,
+      "name": "Component/Button Danger",
+      "reusable": true,
+      "fill": "#FEE2E2",
+      "cornerRadius": 8,
+      "gap": 6,
+      "padding": [
+        8,
+        12
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "q6wzsO",
+          "name": "Button Label",
+          "fill": "$danger",
+          "content": "Delete",
+          "fontFamily": "Geist",
+          "fontSize": 13,
+          "fontWeight": "500"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "IHZqi",
+      "x": 280,
+      "y": -960,
+      "name": "Tasks Page",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$surface-primary",
+      "children": [
+        {
+          "id": "tqUX5",
+          "type": "ref",
+          "ref": "hIvb6",
+          "name": "Sidebar",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "LbjMo",
+          "name": "Main Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            32,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "cCE8k",
+              "name": "Page Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "c6cEG0",
+                  "name": "Page Title",
+                  "fill": "$text-primary",
+                  "content": "Tasks",
+                  "fontFamily": "Geist",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "knBv7",
+                  "name": "Page Subtitle",
+                  "fill": "$text-secondary",
+                  "content": "Create, update, and manage tasks. Actions are logged to the audit trail.",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MihwB",
+              "name": "Create Task Card",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": 12,
+              "stroke": "$border-primary",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Lu0cx",
+                  "name": "Create Header",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "wHuMk",
+                      "name": "Plus Icon",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "circle-plus",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FinmQ",
+                      "name": "Create Title",
+                      "fill": "$text-primary",
+                      "content": "Create New Task",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EZn41",
+                  "name": "Form Row 1",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "c01jpF",
+                      "name": "Title Field",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DlAXR",
+                          "name": "Field Label",
+                          "fill": "$text-secondary",
+                          "content": "Task Title",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "J4b6sf",
+                          "name": "Input",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$surface-primary",
+                          "cornerRadius": 8,
+                          "stroke": "$border-primary",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OFpCd",
+                              "name": "Placeholder",
+                              "fill": "#9CA3AF",
+                              "content": "Enter task title...",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i7HKa",
+                      "name": "Description Field",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D1iGN",
+                          "name": "Field Label",
+                          "fill": "$text-secondary",
+                          "content": "Description",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZfBLl",
+                          "name": "Input",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$surface-primary",
+                          "cornerRadius": 8,
+                          "stroke": "$border-primary",
+                          "strokeWidth": 1,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "AGl83",
+                              "name": "Placeholder",
+                              "fill": "#9CA3AF",
+                              "content": "Describe the task...",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OjFfr",
+                  "name": "Form Row 2",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yF3PX",
+                      "name": "Status Field",
+                      "width": 200,
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "i0Ba3L",
+                          "name": "Field Label",
+                          "fill": "$text-secondary",
+                          "content": "Status",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xXMIB",
+                          "name": "Select",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "$surface-primary",
+                          "cornerRadius": 8,
+                          "stroke": "$border-primary",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NTDr4",
+                              "name": "Selected",
+                              "fill": "$text-primary",
+                              "content": "to_do",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "gVCgJ",
+                              "name": "Chevron",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$text-secondary"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "oGbx7",
+                      "type": "ref",
+                      "ref": "hh1NN",
+                      "name": "Create Button",
+                      "descendants": {
+                        "g0ufe": {
+                          "content": "Create Task"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AoPtK",
+              "name": "Task List Section",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "d8Rwrd",
+                  "name": "Section Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sbdJ4",
+                      "name": "Section Title",
+                      "fill": "$text-primary",
+                      "content": "All Tasks",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Uoole",
+                      "name": "Task Count",
+                      "fill": "$text-secondary",
+                      "content": "4 tasks",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y8bjga",
+                  "name": "Task Table",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 12,
+                  "stroke": "$border-primary",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O2tZ2",
+                      "name": "Header Row",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#E8F0EA",
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PvT0P",
+                          "name": "Task Header Cell",
+                          "width": 280,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "O8PA6E",
+                              "name": "Header Text",
+                              "fill": "$text-secondary",
+                              "content": "TASK",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qjRlp",
+                          "name": "Description Header Cell",
+                          "width": 240,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "itZ3W",
+                              "name": "Header Text",
+                              "fill": "$text-secondary",
+                              "content": "DESCRIPTION",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gELyH",
+                          "name": "Status Header Cell",
+                          "width": 120,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "s6xZt",
+                              "name": "Header Text",
+                              "fill": "$text-secondary",
+                              "content": "STATUS",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NtpR8",
+                          "name": "Created By Header Cell",
+                          "width": 100,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Rbpwh",
+                              "name": "Header Text",
+                              "fill": "$text-secondary",
+                              "content": "CREATED BY",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c9E9xL",
+                          "name": "Actions Header Cell",
+                          "width": 140,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IWXTx",
+                              "name": "Header Text",
+                              "fill": "$text-secondary",
+                              "content": "ACTIONS",
+                              "fontFamily": "Geist",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YOpNU",
+                      "name": "Data Row Prepare Invoice",
+                      "width": "fill_container",
+                      "height": 56,
+                      "stroke": "$border-primary",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DfGra",
+                          "name": "Title Cell",
+                          "width": 280,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TBHFX",
+                              "name": "Task Title",
+                              "fill": "$text-primary",
+                              "content": "Prepare Invoice",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jT1DI",
+                          "name": "Desc Cell",
+                          "width": 240,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nTnwS",
+                              "name": "Description",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "Generate monthly invoice for client ABC",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "r6opJZ",
+                          "name": "Status Cell",
+                          "width": 120,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "IeTwx",
+                              "type": "ref",
+                              "ref": "tZmyD",
+                              "name": "Status Badge",
+                              "fill": "#FEF3C7",
+                              "descendants": {
+                                "VSoRj": {
+                                  "content": "pending",
+                                  "fill": "$status-pending"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "f7CJb",
+                          "name": "User Cell",
+                          "width": 100,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "H3R3TB",
+                              "name": "User",
+                              "fill": "$text-secondary",
+                              "content": "jane.smith",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wA26k",
+                          "name": "Actions Cell",
+                          "width": 140,
+                          "height": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "TGpvV",
+                              "type": "ref",
+                              "ref": "XHCaw",
+                              "name": "Edit Button",
+                              "descendants": {
+                                "K4eey": {
+                                  "content": "Edit"
+                                }
+                              }
+                            },
+                            {
+                              "id": "j2xgP",
+                              "type": "ref",
+                              "ref": "NvZf5",
+                              "name": "Delete Button"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tOSLK",
+                      "name": "Data Row Review Contract",
+                      "width": "fill_container",
+                      "height": 56,
+                      "stroke": "$border-primary",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "i7Nmz",
+                          "name": "Title Cell",
+                          "width": 280,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "o4awez",
+                              "name": "Task Title",
+                              "fill": "$text-primary",
+                              "content": "Review Contract",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PZnPk",
+                          "name": "Desc Cell",
+                          "width": 240,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KN0tw",
+                              "name": "Description",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "Legal review of vendor agreement",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k9F8V5",
+                          "name": "Status Cell",
+                          "width": 120,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "eKbnU",
+                              "type": "ref",
+                              "ref": "tZmyD",
+                              "name": "Status Badge",
+                              "fill": "#DBEAFE",
+                              "descendants": {
+                                "VSoRj": {
+                                  "content": "in_progress",
+                                  "fill": "$status-in-progress"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "w3KGR",
+                          "name": "User Cell",
+                          "width": 100,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X4Qk4w",
+                              "name": "User",
+                              "fill": "$text-secondary",
+                              "content": "john.doe",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IIny9",
+                          "name": "Actions Cell",
+                          "width": 140,
+                          "height": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "N73YvQ",
+                              "type": "ref",
+                              "ref": "XHCaw",
+                              "name": "Edit Button",
+                              "descendants": {
+                                "K4eey": {
+                                  "content": "Edit"
+                                }
+                              }
+                            },
+                            {
+                              "id": "I0Yfir",
+                              "type": "ref",
+                              "ref": "NvZf5",
+                              "name": "Delete Button"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tywEb",
+                      "name": "Data Row Update Website",
+                      "width": "fill_container",
+                      "height": 56,
+                      "stroke": "$border-primary",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "V38Ucr",
+                          "name": "Title Cell",
+                          "width": 280,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CYzik",
+                              "name": "Task Title",
+                              "fill": "$text-primary",
+                              "content": "Update Website",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lcTtz",
+                          "name": "Desc Cell",
+                          "width": 240,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WpD4c",
+                              "name": "Description",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "Refresh landing page copy",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gzzKh",
+                          "name": "Status Cell",
+                          "width": 120,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "sWXul",
+                              "type": "ref",
+                              "ref": "tZmyD",
+                              "name": "Status Badge",
+                              "fill": "#F3F4F6",
+                              "descendants": {
+                                "VSoRj": {
+                                  "content": "to_do",
+                                  "fill": "$status-todo"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qZGD4",
+                          "name": "User Cell",
+                          "width": 100,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "d5dGi",
+                              "name": "User",
+                              "fill": "$text-secondary",
+                              "content": "admin.user",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tUKYV",
+                          "name": "Actions Cell",
+                          "width": 140,
+                          "height": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "olAe0",
+                              "type": "ref",
+                              "ref": "XHCaw",
+                              "name": "Edit Button",
+                              "descendants": {
+                                "K4eey": {
+                                  "content": "Edit"
+                                }
+                              }
+                            },
+                            {
+                              "id": "y3Wqi5",
+                              "type": "ref",
+                              "ref": "NvZf5",
+                              "name": "Delete Button"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "V5kgmT",
+                      "name": "Data Row Send Welcome Email",
+                      "width": "fill_container",
+                      "height": 56,
+                      "stroke": "$border-primary",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "c4rNEc",
+                          "name": "Title Cell",
+                          "width": 280,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "v1klbX",
+                              "name": "Task Title",
+                              "fill": "$text-primary",
+                              "content": "Send Welcome Email",
+                              "fontFamily": "Geist",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Pp7if",
+                          "name": "Desc Cell",
+                          "width": 240,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vDuK5",
+                              "name": "Description",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": 220,
+                              "content": "Onboarding email for new hires",
+                              "fontFamily": "Geist",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U5WkUz",
+                          "name": "Status Cell",
+                          "width": 120,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "AjhOY",
+                              "type": "ref",
+                              "ref": "tZmyD",
+                              "name": "Status Badge",
+                              "fill": "#E8F0EA",
+                              "descendants": {
+                                "VSoRj": {
+                                  "content": "done",
+                                  "fill": "$status-done"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "f7CpQ",
+                          "name": "User Cell",
+                          "width": 100,
+                          "height": "fill_container",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Cise0",
+                              "name": "User",
+                              "fill": "$text-secondary",
+                              "content": "jane.smith",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I90UuD",
+                          "name": "Actions Cell",
+                          "width": 140,
+                          "height": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "hlgMd",
+                              "type": "ref",
+                              "ref": "XHCaw",
+                              "name": "Edit Button",
+                              "descendants": {
+                                "K4eey": {
+                                  "content": "Edit"
+                                }
+                              }
+                            },
+                            {
+                              "id": "v9dcEu",
+                              "type": "ref",
+                              "ref": "NvZf5",
+                              "name": "Delete Button"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dU6I7",
+      "x": 1780,
+      "y": -960,
+      "name": "Audit Log Page",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$surface-primary",
+      "children": [
+        {
+          "id": "QCswK",
+          "type": "ref",
+          "ref": "hIvb6",
+          "name": "Sidebar",
+          "height": "fill_container",
+          "descendants": {
+            "NEGgq": {
+              "fill": "transparent"
+            },
+            "dCL9f": {
+              "fill": "#8FB89A"
+            },
+            "EgsLS": {
+              "fill": "#8FB89A",
+              "fontWeight": "400"
+            },
+            "M7VWG": {
+              "fill": "#2D5E3A"
+            },
+            "z6wYK": {
+              "fill": "$text-inverse"
+            },
+            "g0faxI": {
+              "fill": "$text-inverse",
+              "fontWeight": "500"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "Mob6s",
+          "name": "Main Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            32,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "rZROQ",
+              "name": "Page Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "waxCw",
+                  "name": "Page Title",
+                  "fill": "$text-primary",
+                  "content": "Audit Log",
+                  "fontFamily": "Geist",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "wJi5T",
+                  "name": "Page Subtitle",
+                  "fill": "$text-secondary",
+                  "content": "Immutable record of all task changes. Entries cannot be deleted.",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u1J8Hg",
+              "name": "Immutable Notice",
+              "width": "fill_container",
+              "fill": "#FEF3C7",
+              "cornerRadius": 8,
+              "stroke": "#D97706",
+              "strokeWidth": 1,
+              "gap": 10,
+              "padding": [
+                12,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "YoFVX",
+                  "name": "Lock Icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "lock",
+                  "library": "lucide",
+                  "fill": "#D97706"
+                },
+                {
+                  "type": "text",
+                  "id": "PDAys",
+                  "name": "Notice Text",
+                  "fill": "#92400E",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Audit log entries are permanent and cannot be removed by any user.",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K5ciOH",
+              "name": "Search Filter Bar",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "E6SwD",
+                  "name": "Search Input",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 8,
+                  "stroke": "$border-primary",
+                  "strokeWidth": 1,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "R8pC7",
+                      "name": "Search Icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "search",
+                      "library": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lV18V",
+                      "name": "Search Placeholder",
+                      "fill": "#9CA3AF",
+                      "content": "Search audit log...",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zP941",
+                  "name": "Filter Dropdown",
+                  "width": 180,
+                  "height": 44,
+                  "fill": "$surface-secondary",
+                  "cornerRadius": 8,
+                  "stroke": "$border-primary",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "UxfcA",
+                      "name": "Filter Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "list-filter",
+                      "library": "lucide",
+                      "fill": "$text-secondary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OHgzp",
+                      "name": "Filter Label",
+                      "fill": "$text-primary",
+                      "content": "All fields",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "vxMV4",
+                      "name": "Chevron",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$text-secondary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VvRji",
+              "name": "Log List",
+              "clip": true,
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "cornerRadius": 12,
+              "stroke": "$border-primary",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zrfBc",
+                  "name": "Log Header",
+                  "width": "fill_container",
+                  "fill": "#E8F0EA",
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N9VYj",
+                      "name": "Log Title",
+                      "fill": "$text-secondary",
+                      "content": "ACTIVITY LOG",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JbiOE",
+                      "name": "Log Count",
+                      "fill": "$text-secondary",
+                      "content": "6 entries",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AVwIZ",
+                  "name": "Log Entry",
+                  "width": "fill_container",
+                  "stroke": "$border-primary",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Rodtt",
+                      "name": "Log Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right-left",
+                      "library": "lucide",
+                      "fill": "$status-in-progress"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dDtfi",
+                      "name": "Log Text Container",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CJPRz",
+                          "name": "Log Message",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 900,
+                          "content": "User \"john.doe\" changed Task \"Prepare Invoice\" status from \"pending\" to \"in_progress\" at 2025-01-01 10:00",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mzBvZ",
+                  "name": "Log Entry",
+                  "width": "fill_container",
+                  "stroke": "$border-primary",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "JJDdk",
+                      "name": "Log Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "plus",
+                      "library": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "V2O0Rc",
+                      "name": "Log Text Container",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aQ5td",
+                          "name": "Log Message",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 900,
+                          "content": "User \"jane.smith\" created Task \"Prepare Invoice\" with status \"to_do\" at 2025-01-01 09:30",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qxJdc",
+                  "name": "Log Entry",
+                  "width": "fill_container",
+                  "stroke": "$border-primary",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "A1fqT",
+                      "name": "Log Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right-left",
+                      "library": "lucide",
+                      "fill": "$status-in-progress"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j4OAt",
+                      "name": "Log Text Container",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "E2v4L0",
+                          "name": "Log Message",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 900,
+                          "content": "User \"admin.user\" changed Task \"Review Contract\" status from \"to_do\" to \"pending\" at 2025-01-01 11:15",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j7N3hd",
+                  "name": "Log Entry",
+                  "width": "fill_container",
+                  "stroke": "$border-primary",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "V5a3U",
+                      "name": "Log Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right-left",
+                      "library": "lucide",
+                      "fill": "$status-in-progress"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KIhTV",
+                      "name": "Log Text Container",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kDsUn",
+                          "name": "Log Message",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 900,
+                          "content": "User \"john.doe\" changed Task \"Review Contract\" status from \"pending\" to \"in_progress\" at 2025-01-01 11:45",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hMk7C",
+                  "name": "Log Entry",
+                  "width": "fill_container",
+                  "stroke": "$border-primary",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "GK01P",
+                      "name": "Log Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right-left",
+                      "library": "lucide",
+                      "fill": "$status-in-progress"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nFN87",
+                      "name": "Log Text Container",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BHQOc",
+                          "name": "Log Message",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 900,
+                          "content": "User \"jane.smith\" changed Task \"Send Welcome Email\" status from \"in_progress\" to \"done\" at 2025-01-01 14:20",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bWoiV",
+                  "name": "Log Entry",
+                  "width": "fill_container",
+                  "stroke": "$border-primary",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "gap": 12,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "PviSB",
+                      "name": "Log Icon",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "trash-2",
+                      "library": "lucide",
+                      "fill": "$danger"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R3BqZP",
+                      "name": "Log Text Container",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LsIXT",
+                          "name": "Log Message",
+                          "fill": "$text-primary",
+                          "textGrowth": "fixed-width",
+                          "width": 900,
+                          "content": "User \"admin.user\" deleted Task \"Update Website\" at 2025-01-01 15:00",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tWt2h",
+      "x": 3260,
+      "y": -960,
+      "name": "Component/User Dropdown Open",
+      "reusable": true,
+      "clip": true,
+      "width": 220,
+      "fill": "$surface-secondary",
+      "cornerRadius": 8,
+      "stroke": "$border-primary",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "rDOle",
+          "name": "Dropdown Header",
+          "width": "fill_container",
+          "fill": "#E8F0EA",
+          "gap": 8,
+          "padding": [
+            10,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "G74v0t",
+              "name": "Header Text",
+              "fill": "$text-secondary",
+              "content": "SELECT USER",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b5nt3K",
+          "name": "User Option john.doe",
+          "width": "fill_container",
+          "fill": "#E8F0EA",
+          "gap": 8,
+          "padding": [
+            10,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "GLFHw",
+              "name": "User Icon",
+              "width": 14,
+              "height": 14,
+              "icon": "user",
+              "library": "lucide",
+              "fill": "$accent-primary"
+            },
+            {
+              "type": "text",
+              "id": "zihxt",
+              "name": "User Name",
+              "fill": "$text-primary",
+              "content": "john.doe",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "icon",
+              "id": "OlvmI",
+              "name": "Check",
+              "width": 14,
+              "height": 14,
+              "icon": "check",
+              "library": "lucide",
+              "fill": "$accent-primary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WLt1P",
+          "name": "User Option jane.smith",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            10,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "iCMff",
+              "name": "User Icon",
+              "width": 14,
+              "height": 14,
+              "icon": "user",
+              "library": "lucide",
+              "fill": "$text-secondary"
+            },
+            {
+              "type": "text",
+              "id": "QtvCM",
+              "name": "User Name",
+              "fill": "$text-secondary",
+              "content": "jane.smith",
+              "fontFamily": "Geist",
+              "fontSize": 13
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "olNe6",
+          "name": "User Option admin.user",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            10,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "icon",
+              "id": "d9Cpyw",
+              "name": "User Icon",
+              "width": 14,
+              "height": 14,
+              "icon": "user",
+              "library": "lucide",
+              "fill": "$text-secondary"
+            },
+            {
+              "type": "text",
+              "id": "BU9lJ",
+              "name": "User Name",
+              "fill": "$text-secondary",
+              "content": "admin.user",
+              "fontFamily": "Geist",
+              "fontSize": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wUnyh",
+      "x": 3520,
+      "y": -960,
+      "name": "Component/Filter Dropdown Open",
+      "reusable": true,
+      "clip": true,
+      "width": 200,
+      "fill": "$surface-secondary",
+      "cornerRadius": 8,
+      "stroke": "$border-primary",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Xa6gV",
+          "name": "Filter Option",
+          "width": "fill_container",
+          "fill": "#E8F0EA",
+          "gap": 8,
+          "padding": [
+            10,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "h3k096",
+              "name": "Option Label",
+              "fill": "$text-primary",
+              "content": "All fields",
+              "fontFamily": "Geist",
+              "fontSize": 13,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c4KdQS",
+          "name": "Filter Option",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            10,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "P4yYc2",
+              "name": "Option Label",
+              "fill": "$text-secondary",
+              "content": "Task name",
+              "fontFamily": "Geist",
+              "fontSize": 13
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HD97r",
+          "name": "Filter Option",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            10,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gYFcb",
+              "name": "Option Label",
+              "fill": "$text-secondary",
+              "content": "Status",
+              "fontFamily": "Geist",
+              "fontSize": 13
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UwZFY",
+          "name": "Filter Option",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            10,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "LVS2B",
+              "name": "Option Label",
+              "fill": "$text-secondary",
+              "content": "Date",
+              "fontFamily": "Geist",
+              "fontSize": 13
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X5IHg4",
+          "name": "Filter Option",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            10,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "eq4SK",
+              "name": "Option Label",
+              "fill": "$text-secondary",
+              "content": "Description",
+              "fontFamily": "Geist",
+              "fontSize": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "drWAa",
+      "x": 3760,
+      "y": -960,
+      "name": "Component/Edit Task Modal",
+      "reusable": true,
+      "width": 480,
+      "fill": "$surface-secondary",
+      "cornerRadius": 12,
+      "stroke": "$border-primary",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "I6lNa",
+          "name": "Modal Header",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "nynEl",
+              "name": "Modal Title",
+              "fill": "$text-primary",
+              "content": "Edit Task",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "QgYOO",
+              "name": "Close",
+              "width": 20,
+              "height": 20,
+              "icon": "x",
+              "library": "lucide",
+              "fill": "$text-secondary"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fYncc",
+          "name": "Title Field",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "tzxU0",
+              "name": "Label",
+              "fill": "$text-secondary",
+              "content": "Task Title",
+              "fontFamily": "Geist",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "qTdIs",
+              "name": "Input",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "$surface-primary",
+              "cornerRadius": 8,
+              "stroke": "$border-primary",
+              "strokeWidth": 1,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "v1qVgT",
+                  "name": "Value",
+                  "fill": "$text-primary",
+                  "content": "Prepare Invoice",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "z0rFVn",
+          "name": "Description Field",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "ARWxk",
+              "name": "Label",
+              "fill": "$text-secondary",
+              "content": "Description",
+              "fontFamily": "Geist",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "y8h57",
+              "name": "Input",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "$surface-primary",
+              "cornerRadius": 8,
+              "stroke": "$border-primary",
+              "strokeWidth": 1,
+              "padding": [
+                0,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F5tnPy",
+                  "name": "Value",
+                  "fill": "$text-primary",
+                  "content": "Generate monthly invoice for client ABC",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wRPAb",
+          "name": "Status Field",
+          "width": 200,
+          "layout": "vertical",
+          "gap": 6,
+          "children": [
+            {
+              "type": "text",
+              "id": "iJQ4s",
+              "name": "Label",
+              "fill": "$text-secondary",
+              "content": "Status",
+              "fontFamily": "Geist",
+              "fontSize": 12,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "M0D4F7",
+              "name": "Select",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "$surface-primary",
+              "cornerRadius": 8,
+              "stroke": "$border-primary",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                0,
+                12
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "V6gWg",
+                  "name": "Value",
+                  "fill": "$text-primary",
+                  "content": "in_progress",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "icon",
+                  "id": "D1odZ",
+                  "name": "Chevron",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "$text-secondary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KwUuN",
+          "name": "Modal Actions",
+          "width": "fill_container",
+          "gap": 12,
+          "justifyContent": "end",
+          "children": [
+            {
+              "id": "JtmKV",
+              "type": "ref",
+              "ref": "XHCaw",
+              "name": "Cancel Button",
+              "descendants": {
+                "K4eey": {
+                  "content": "Cancel"
+                }
+              }
+            },
+            {
+              "id": "yYFlS",
+              "type": "ref",
+              "ref": "hh1NN",
+              "name": "Save Button",
+              "descendants": {
+                "g0ufe": {
+                  "content": "Save Changes"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "nwy5Q",
+      "x": 4280,
+      "y": -960,
+      "name": "Component/Status Dropdown Open",
+      "reusable": true,
+      "clip": true,
+      "width": 160,
+      "fill": "$surface-secondary",
+      "cornerRadius": 8,
+      "stroke": "$border-primary",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Uyca1",
+          "name": "Status Option",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            8,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "BNlbm",
+              "name": "Dot",
+              "fill": "$status-todo",
+              "width": 8,
+              "height": 8
+            },
+            {
+              "type": "text",
+              "id": "v78Pj",
+              "name": "Status Label",
+              "fill": "$text-primary",
+              "content": "to_do",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oHtZb",
+          "name": "Status Option",
+          "width": "fill_container",
+          "fill": "#FEF3C7",
+          "gap": 8,
+          "padding": [
+            8,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "SuhW3",
+              "name": "Dot",
+              "fill": "$status-pending",
+              "width": 8,
+              "height": 8
+            },
+            {
+              "type": "text",
+              "id": "hj3hU",
+              "name": "Status Label",
+              "fill": "$text-primary",
+              "content": "pending",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "T6dOR",
+          "name": "Status Option",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            8,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "OP4vz",
+              "name": "Dot",
+              "fill": "$status-in-progress",
+              "width": 8,
+              "height": 8
+            },
+            {
+              "type": "text",
+              "id": "DLa8Y",
+              "name": "Status Label",
+              "fill": "$text-primary",
+              "content": "in_progress",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "enOvz",
+          "name": "Status Option",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "gap": 8,
+          "padding": [
+            8,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "MnMF6",
+              "name": "Dot",
+              "fill": "$status-done",
+              "width": 8,
+              "height": 8
+            },
+            {
+              "type": "text",
+              "id": "j1PTZ",
+              "name": "Status Label",
+              "fill": "$text-primary",
+              "content": "done",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-primary": {
+      "type": "color",
+      "value": "#2D5E3A"
+    },
+    "border-primary": {
+      "type": "color",
+      "value": "#C8D5CC"
+    },
+    "danger": {
+      "type": "color",
+      "value": "#DC2626"
+    },
+    "status-done": {
+      "type": "color",
+      "value": "#2D5E3A"
+    },
+    "status-in-progress": {
+      "type": "color",
+      "value": "#2563EB"
+    },
+    "status-pending": {
+      "type": "color",
+      "value": "#D97706"
+    },
+    "status-todo": {
+      "type": "color",
+      "value": "#6B7280"
+    },
+    "surface-inverse": {
+      "type": "color",
+      "value": "#1B3A28"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#F5F3EE"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#1B3A28"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#4A6B52"
+    }
+  }
+}
